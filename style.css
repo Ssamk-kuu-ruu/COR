@@ -11,3 +11,84 @@ header {
   border-bottom: 2px solid #ddd;
   margin-bottom: 20px;
 }
+
+.comtainer {
+  width: 80%;
+  margin-bottom: 20px auto;
+  padding: 20px;
+  background-color: white;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+h1,
+h2,
+h3 {
+  margin: 5px 0;
+}
+
+h4 {
+  background-color: #d9eaf7;
+  padding: 5px;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.student-info {
+  margin-bottom: 10px;
+  padding: 5px;
+  border: 3px solid black;
+}
+
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.subject-details {
+  margin-bottom: 20px;
+  border: 3px solid black;
+  padding: 10px;
+}
+
+.subject-header {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  background-color: #d9eaf7;
+  padding: 10px;
+  border-bottom: 2px solid #ddd;
+}
+
+.subject {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.total-units {
+  text-align: center;
+  font-weight: bold;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.assessed-fees {
+  margin-bottom: 20px;
+  border: 3px solid black;
+  padding: 10px;
+}
+
+.fee-grid {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  color: black;
+}
